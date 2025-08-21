@@ -44,7 +44,7 @@ public class ItemManager : MonoBehaviour
         }
     }
 
-    public void UpdateSaleText()
+    public void UpdateSaleText()    // ¾Æ¾Æ
     {
         for (int i = 0; i < list.Count; i++) {
             saleSum += itemPrice[list[i]];
